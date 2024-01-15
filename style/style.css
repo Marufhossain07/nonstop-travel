@@ -186,6 +186,116 @@ input {
     margin-top: 32px;
 }
 
+/* Destination section styles */
+.destination {
+    max-width: 1440px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.destination h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.container {
+    display: grid;
+    gap: 24px;
+    grid:
+        /* 'top top top2'
+    'mid1 mid2 mid3'
+    'bottom1 bottom2 bottom2' */
+        'top top top2 top2'
+        'mid1  mid2 mid2 mid3'
+        'bottom1 bottom1  bottom2 bottom2'
+    ;
+}
+
+.box1 {
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 300px;
+    grid-area: top;
+}
+
+.container h3 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box2 {
+    background-image: url(../Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 300px;
+    grid-area: top2;
+}
+
+.box3 {
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 286px;
+    grid-area: mid1;
+}
+
+.box4 {
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 286px;
+    grid-area: mid2;
+}
+
+.box5 {
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 286px;
+    grid-area: mid3;
+}
+
+.box6 {
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 300px;
+    grid-area: bottom1;
+}
+
+.box7 {
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 300px;
+    grid-area: bottom2;
+}
+
 
 
 
@@ -264,4 +374,16 @@ input {
         width: 100%;
         margin-top: 24px;
     }
+    .destination {
+        width: 90%;
+    }
+    .destination h3{
+        font-size: 20px;
+    }
+    .destination p {
+        width: 90%;
+    }
+    .container {
+       display: flex;
+       flex-direction: column;
 }

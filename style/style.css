@@ -212,6 +212,9 @@ input {
     font-weight: 800;
     width: 384px;
 }
+.big-content span {
+    color: red;
+}
 
 .big-content p {
     color: rgba(19, 19, 24, 0.70);

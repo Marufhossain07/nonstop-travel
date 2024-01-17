@@ -268,20 +268,15 @@ input {
 .container {
     display: grid;
     gap: 24px;
-    grid:
-        /* 'top top top2'
-    'mid1 mid2 mid3'
-    'bottom1 bottom2 bottom2' */
-        'top top top2 top2'
-        'mid1  mid2 mid2 mid3'
-        'bottom1 bottom1  bottom2 bottom2'
+    grid: 'top top top top top top2 top2 top2 top2 top2'
+    'mid1 mid1 mid1 mid2 mid2 mid2 mid2 mid3 mid3 mid3'
+    'bottom1 bottom1 bottom1 bottom1 bottom2 bottom2 bottom2 bottom2 bottom2 bottom2';
     ;
 }
 
 .box1 {
     background-image: url(../Images/Rectangle\ 5.png);
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     height: 300px;
     grid-area: top;
@@ -291,6 +286,7 @@ input {
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -300,7 +296,6 @@ input {
 .box2 {
     background-image: url(../Images/Rectangle\ 8.png);
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     height: 300px;
     grid-area: top2;
@@ -309,7 +304,6 @@ input {
 .box3 {
     background-image: url(../Images/Rectangle\ 6.png);
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     height: 286px;
     grid-area: mid1;
@@ -318,7 +312,6 @@ input {
 .box4 {
     background-image: url(../Images/Rectangle\ 7.png);
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     height: 286px;
     grid-area: mid2;
@@ -327,7 +320,6 @@ input {
 .box5 {
     background-image: url(../Images/Rectangle\ 9.png);
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     height: 286px;
     grid-area: mid3;
@@ -336,7 +328,6 @@ input {
 .box6 {
     background-image: url(../Images/Rectangle\ 11.png);
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     height: 300px;
     grid-area: bottom1;
@@ -345,7 +336,6 @@ input {
 .box7 {
     background-image: url(../Images/Rectangle\ 10.png);
     background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 16px;
     height: 300px;
     grid-area: bottom2;
